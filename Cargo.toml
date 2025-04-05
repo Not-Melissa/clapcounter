@@ -1,0 +1,10 @@
+[package]
+name = "clapcounter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.97"
+cpal = { version = "0.15.3", features = ["asio", "jack"] }
+gag = "1.0.0"
+inquire = "0.7.5"
